@@ -1,0 +1,142 @@
+header {
+    background-color: #c4ffd6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.logo-name {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    padding-right: 1rem;
+    width: 2.5rem;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.list {
+    display: flex;
+}
+
+.items {
+    padding-right: 1.5rem;
+    list-style: none;
+    transition: 150ms;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    transition: .2s;
+}
+
+.intro {
+    display: flex;
+    padding: 1.5rem 5rem;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+
+}
+
+.presentation {
+    width: 75%;
+}
+
+.intro-title {
+    font-size: 2rem;
+    padding: 1rem 0rem;
+    font-style: bold;
+    font-weight: 600;
+}
+
+.skill-container{
+    padding: 1rem 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.paragraph {
+    padding: 1.5rem 0;
+    font-size: 1.2rem;
+}
+
+.about {
+    padding: 5rem 5rem;
+    background: #c9dcf8;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about-title {
+    padding: .5rem 0;
+    font-size: 2rem;
+    font-style: bold;
+    font-weight: 600;
+}
+
+.skill{
+    background: #F5F5F5;
+    padding: 2rem 5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.skill-container {
+    padding: 1rem 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.skill-title {
+    text-align: center;
+    padding: 2rem 1rem;
+    font-weight: bold;
+    font-size: 2rem ;
+}
+
+.hobby{
+    background: #F5F5F5;
+    padding: 2rem 5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hobby-item{
+    background: #FFFFFF;
+    border-radius: 2%;
+    width: 20%;
+    height: 9rem;
+    margin: 1rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.hobby-title {
+    text-align: center;
+    padding: 2rem 1rem;
+    font-weight: bold;
+    font-size: 2rem ;
+}
