@@ -68,7 +68,7 @@ header {
     font-weight: 600;
 }
 
-.skill-container{
+.skills-container{
     padding: 1rem 0rem;
     display: flex;
     flex-wrap: wrap;
@@ -94,13 +94,20 @@ header {
     font-weight: 600;
 }
 
-.skill{
+.skills {
     background: #F5F5F5;
     padding: 2rem 5rem;
     font-family: 'Montserrat', sans-serif;
 }
 
-.skill-container {
+.skills-title {
+    text-align: center;
+    padding: 2rem 1rem;
+    font-weight: bold;
+    font-size: 2rem ;
+}
+
+.skills-container {
     padding: 1rem 0rem;
     display: flex;
     flex-wrap: wrap;
@@ -108,11 +115,21 @@ header {
     justify-content: center;
 }
 
-.skill-title {
-    text-align: center;
-    padding: 2rem 1rem;
+.skills-item{
+    background: #FFFFFF;
+    border-radius: 2%;
+    width: calc(19% + 1%);
+    height: 9rem;
+    margin: 1%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.skills-name {
+    font-size: 1.2rem;
     font-weight: bold;
-    font-size: 2rem ;
 }
 
 .hobby{
@@ -140,3 +157,9 @@ header {
     font-weight: bold;
     font-size: 2rem ;
 }
+
+.icono {
+    width: 60px;
+    padding-bottom: 1rem;
+}
+
