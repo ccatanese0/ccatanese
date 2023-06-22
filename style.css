@@ -16,6 +16,11 @@ header {
     align-items: center;
 }
 
+.navigation a {
+    color: #000000;
+    font-weight: bold;
+}
+
 .logo-name {
     display: flex;
     align-items: center;
@@ -70,6 +75,7 @@ header {
     padding: 1rem 0rem;
     font-style: bold;
     font-weight: 600;
+    color: #d17676;
 }
 
 .skills-container{
@@ -83,6 +89,7 @@ header {
 .paragraph {
     padding: 1.5rem 0;
     font-size: 1.2rem;
+    line-height: 25px;
 }
 
 .about {
@@ -221,3 +228,4 @@ header {
     font-style: bold;
     font-weight: 600;
 }
+
