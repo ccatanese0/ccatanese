@@ -8,6 +8,7 @@ header {
     padding: 1rem 5rem;
     font-family: 'Montserrat', sans-serif;
     align-items: center;
+    background-color: #709ad8;
 }
 
 .navigation {
@@ -140,6 +141,7 @@ header {
     background: #F5F5F5;
     padding: 2rem 5rem;
     font-family: 'Montserrat', sans-serif;
+    justify-content: center;
 }
 
 .hobby-container {
@@ -159,13 +161,12 @@ header {
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .hobby-name {
     font-size: 1.2rem;
     font-weight: bold;
-    text-align: justify;
 }
 
 .hobby-title {
@@ -180,9 +181,8 @@ header {
     padding-bottom: 1rem;
 }
 
-
 .footer {
-    background-color: #a670d8;
+    background-color: #709ad8;
     color: white;
     text-align: center;
     bottom: 0;
@@ -201,16 +201,23 @@ header {
     width: 5%;
 }
 
-
 .cv {
-    padding: 5rem 5rem;
-    background: #ff4d17ef;
+    padding: 5rem ;
+    background: #e0d03fef;
     font-family: 'Montserrat', sans-serif;
 }
 
-.cv .link {
-    padding: 10px 20px;
+.cv-link {
     color: white;
     font-size: 20px;
     list-style-type: none;
+    background-color: #a56fd8;
+    padding: 1rem 2rem;
+}
+
+.prox {
+    padding: .5rem 0;
+    font-size: 2rem;
+    font-style: bold;
+    font-weight: 600;
 }
